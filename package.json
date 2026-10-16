@@ -1,0 +1,22 @@
+{
+  "name": "k7-esports-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "K7 ESPORTS team website with admin CMS and Supabase persistence",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.1.0",
+    "dotenv": "^16.6.1",
+    "multer": "^2.0.2"
+  }
+}
